@@ -1,0 +1,5 @@
+Eric Neidhart
+
+I'll be using Remote Labs for the Kali installation (using a non-M1 chip mac, but had unspecified 'kernel issues' when trying to setup VirtualBox).
+One issue I had was once I tried to make the Kali window go full screen, and it sort of locked me out of my desktop screen, and I had to do a full computer
+restart to fix the issue, since I couldn't even close the window. 
