@@ -1,0 +1,21 @@
+Note: This is being done on a mac computer
+1.
+    ipconfig getifaddr en0 (this is for wireless connections, if I was using a wired connection as well,
+    I could use the same command but en1 instead of en0)
+2.
+    nslookup HOSTNAME
+3.
+    nslookup IPADDRESS
+4.
+    scp LOCALFILEPATH DESTINATION (and enter passwords if prompted)
+    (For me this was scp /Users/Eric\ 1/Desktop/Cybersecurity/cs231/tools/scavenger-hunt.txt 
+    neidharte@mirage.mathcs.carleton.edu:~/Desktop)
+5.
+    nc -z IPADDRESS PORTNUMBER
+6.
+    nc -z IPADDRESS STARTOFPORTRANGE-ENDOFPORTRANGE (1-10000 should cover all important ports)
+7.
+    curl "URL" >> DESINATIONFILEPATH
+8.
+    curl -I URL
+9.
