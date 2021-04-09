@@ -18,4 +18,3 @@ Note: This is being done on a mac computer
     curl "URL" >> DESINATIONFILEPATH
 8.
     curl -I URL
-9.
